@@ -4,4 +4,13 @@
 Bachelor's thesis @ Faculty of Electrical Engineering and Computing, University of Zagreb
 
 
-The thesis provides an overview of Network-on-Chip arcitecture for FPGA and a multicore implementation of Serpent cryptoalgorithm in Verilog. Serpent is a symmetrical cryptoalgorithm designed by Ross Anderson, Eli Biham and Lars Knudsen. Said algorithm was a finalist in the AES: the Advanced Encryption Standard competition (1997 - 2000). 
+This work describes a refined architectural approach to solving intensive parallel
+computation in hardware - a Network-on-Chip. Network-on-Chip allows for multi-
+core processing of vast amounts of data in hardware. The implementation of NoC
+used is an open source named OpenNoc, designed for the FPGA technology. Crypto-
+algorithms perform predominantly concurrent computation and therefore benefit of
+hardware acceleration. The work provided implementation of custom processing el-
+ements performing the Serpent crypto-algorithm encryption and decryption. Perfor-
+mance was assessed in simulation of the NoC with various numbers of cores. Several
+improvements regarding the implementation flexibility, security, power and memory
+consumption are suggested.
